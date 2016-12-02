@@ -1,0 +1,11 @@
+;Addition of three 8bit numbers
+LDA 0001H
+MOV B,A
+LDA 0002H
+ADD B
+MOV C,A
+LDA 0003H
+;MOV C,B
+ADD C
+STA 0005H
+HLT
